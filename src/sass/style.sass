@@ -1,0 +1,131 @@
+@import "normalizez.scss"
+@import "resets.scss"
+@font-face
+    font-family: "SunDay"
+    src: url(../fonts/ofont.ru_Buba.ttf)
+    font-weight: regular //regular
+    font-style: normal
+
+.container
+    max-width: 1140px 
+    margin: 0 auto
+
+.link
+    text-decoration: none
+    color: white
+
+body
+    background-color: #213568
+    font-family: "SunDay"
+
+.first-section
+    position: relative
+    min-height: 750px
+    padding-top: 16px 
+    overflow: hidden
+    margin-bottom: 0px
+    &__nav-container
+        display: flex
+        flex-direction: row
+        justify-content: space-evenly
+        align-items: center
+
+.nav-menu
+    position: relative
+    top: -60px
+    &__list
+        display: flex
+        flex-direction: row
+    &__list-item
+        position: relative
+        margin-right: 68px
+        font-size: 24px
+        &:last-child
+            margin-right: 0px
+    &__link
+        color: white
+
+.logo
+    position: relative
+    top: -60px
+    width: 270px
+
+.title
+    color: white
+    font-weight: bold
+    font-size: 60px
+    
+.content-container
+    &__title
+        margin-bottom: 120px
+.fact-box
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    align-items: center
+
+.cards
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    &__title
+        font-size: 48px
+        font-weight: bold
+        color: #FFC93F
+        margin-bottom: 20px
+    &__text
+        color: white
+        font-size: 20px
+
+.img-box
+    width: 200px
+    height: 200px
+    position: relative
+    left: -250px
+    top: -190px
+    &__img
+        position: absolute
+        width: 350px
+    
+.second-section
+    position: relative
+    min-height: 750px
+    padding-top: 16px 
+    overflow: hidden
+    margin-bottom: 0px
+    &__title
+        margin-bottom: 120px
+        
+
+.content-menu
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+
+.cards-box
+    display: flex
+    flex-direction: row
+    align-items: center
+    
+.box
+    background-color: rgba(0, 0, 0, 0.1)
+    box-shadow: 0px 10px 20px #1A2339
+    width: 320px
+    border-radius: 10px
+    margin-right: 110px
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    &:last-child
+        margin-right: 0px
+    &__text
+        color: white
+        text-shadow: #ffe600 4px 4px 7px
+        font-size: 32px
+        margin-bottom: 10px
+    &__img
+        width: 300px
+        margin-bottom: 40px
